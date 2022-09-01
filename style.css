@@ -1,0 +1,319 @@
+
+/* Index */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+   
+    }
+    header{
+        background-color: rgb(12, 12, 12);
+         padding: 10px;
+         text-decoration: none;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%); */
+    color: white;
+    }
+    header nav .Right a{
+    color: var(--white);
+     text-decoration: none;
+    padding-left: 2px;
+    margin-right: 1rem;
+    margin-left: 3rem;
+    color: white;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    /* background-color: black; */
+    }
+    header nav .Right a:hover{
+    color: blueviolet;
+    }
+    header nav {
+    padding: 1rem 0;
+    }
+    header nav .logo{
+    /* margin-right: 1rem; */
+    margin-top:3rem;
+    margin-left:1rem;
+    height: 80px;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        }
+        .container{
+        max-width: 1152px;
+        padding: 0 15px;
+        margin: 0 auto;
+        }
+        .hero{
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        }
+        .hero .left img{
+        width: 300px;
+        height: 300px;
+        }
+        .hero .right {
+        color: var(--white);
+        margin-top: -7rem;
+        }
+        .hero .right h6{
+        font-size: 1.6rem;
+        color: black;
+        margin-bottom: 1.5rem;
+        margin-top: 4.5rem;
+        }
+        .hero .right h1{
+        font-size: 4rem;
+        color: black;
+        font-weight: 100;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+        }
+        .hero .right h1 span{
+        color: black;
+        }
+        .hero .right p{
+        line-height: 1.9;
+        margin-bottom: 2rem;
+        }
+
+        .flex{
+            display: flex;
+            }
+            .items-centre{
+            align-items: center;
+            }
+            .justify-between{
+            justify-content: space-between;
+            }
+            .justify-center{
+            justify-content: center;
+            }
+            .justify-right{
+            justify-content: right;
+            }
+            .btn{
+            padding: 0.6rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border: 2px solid transparent;
+            outline: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all .2s ease;
+            }
+            .btn-primary{
+            background-color: var(--primary);
+            color: var(--secondary);
+            margin-top: -15rem;
+            }
+            .btn-primary:hover{
+            background: transparent;
+            border-color: var(--primary);
+            color: var(--primary);
+            }
+            .flex-1{
+            flex: 1;
+            }
+            .btn-secondary{
+            background: transparent;
+            color: var(--primary);
+            border-color: black;
+            }
+            .btn-secondary:hover{
+            background:blueviolet;
+            color: white;
+            }
+
+            /*About me*/
+            .column
+            {
+              float:left;
+            }
+
+         .Left{
+            width:45%;
+            
+          }
+         .right {
+            width:55%;
+            padding-left: 30px;
+            
+            
+          }
+             h2{
+                color:black;
+                }
+                h3{
+                font-size: 1rem;
+                margin-bottom: 1rem;
+                font-weight: 600;
+                }
+                p{
+                font-family: 'Lato', sans-serif;
+                color: black;
+                line-height: 2rem;
+                margin-bottom: 2rem;
+                }
+                ul{
+                  line-height: 2rem;
+                  padding-left: 48px;
+                }
+                li{
+                  padding-left: 50px;
+                  text-decoration: none;
+                }
+                /* projects*/
+                
+                    .services-head{
+                    color: rgb(10, 9, 9);
+                    text-align: center;
+                    margin-top: 2rem;
+                    margin-bottom: 1rem;
+                    line-height: 0.5rem;
+                    color: black;
+                    }
+                    .services-head + p{
+                    color:black;
+                    font-family: 'Lato', sans-serif;
+                    margin-bottom: 1rem;
+                    text-align: center;
+                    margin-bottom: 6rem;
+                    font-weight: 400;
+                    }
+                    .card img{
+                    width: 100px;
+                    height: 100px;
+                    background:black;
+
+                    }
+                    .card-grid{
+                    display: grid;
+                    grid-template-columns: repeat(3,1fr);
+                    column-gap: 2rem;
+                    }
+                   .card-grid .card{
+                    background: var(--white);
+                    padding: 6rem 2rem;
+                    position: relative;
+                    text-align: center;
+                    transition: all .2s ease;
+                    }
+                   .card-grid .card img{
+                    position: absolute;
+                    top: -1.5rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    color: var();
+                    }
+                   .card-grid .card h3{
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    margin-bottom: 0.5rem;
+                    }
+     .card-grid .card p{
+                    font-family: 'Lato', sans-serif;
+                    color: var(--seconday);
+                    line-height: 1.6;
+                    }
+                     .card-grid .card:hover{
+                    background: blueviolet;
+                    }
+           .card-grid .card:hover h3{
+                    color: var(--white);
+                    }
+                     .card-grid .card:hover p{
+                    color: var(--white);
+                    }
+
+                   /* Contact  */
+                      /* Style inputs, select elements and textareas */
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container1*/
+  .container1 {
+    border-radius: 5px;
+    background-color:blueviolet;
+    padding: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: fit-content;
+  }
+   
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #num{
+    width:75%;
+    float:left;
+    margin-top:6px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  } 
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+  }
+  footer{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+  }
